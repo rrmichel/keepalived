@@ -1,5 +1,7 @@
 FROM alpine:3.10
 
+LABEL build="Thu 04 Jul 2019 10:53:53 PM CEST"
+
 ENV alpine_version="3.10" \
     keepalived_version="2.0.16-r0"
 
